@@ -6,7 +6,6 @@ class google_cloud_sdk::repositories {
     gpgcheck => 1,
     gpgkey   => 'https://packages.cloud.google.com/yum/doc/yum-key.gpg
        https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg',
-    priority => 1,
     before   => [Package['google-cloud-sdk']],
   }
 }
