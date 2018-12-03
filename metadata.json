@@ -1,0 +1,19 @@
+{
+  "name": "puppet-google_cloud_sdk",
+  "version": "0.0.1",
+  "author": "Michiru Kaneda",
+  "summary": "Puppet to install google-cloud-sdk",
+  "license": "MIT",
+  "source": "https://github.com/mickaneda/puppet-google_cloud_sdk",
+  "description": "Simple puppet module to install files (and execute them).",
+  "issues_url": "Puppet to install google-cloud-sdk",
+  "tags": [
+  ],
+  "project_page": "https://github.com/mickaneda/puppet-google_cloud_sdk",
+  "requirements": [
+  ],
+  "operatingsystem_support": [
+  ],
+  "dependencies": [
+  ]
+}
