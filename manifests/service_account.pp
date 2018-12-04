@@ -6,11 +6,11 @@ class google_cloud_sdk::service_account (
   $zone = "",
 ){
   if $service_account_file != "" {
-    file {service_account_file:
+    file {"service_account_file":
       path => $tmp_file,
       source => $service_account_file,
       owner => $user,
-      mode => 600,
+      mode => "600",
     }
     exec {"GCP account setting":
       command => "/usr/bin/sudo -u ${user} /usr/bin/gcloud auth activate-service-account --key-file ${tmp_file}",
